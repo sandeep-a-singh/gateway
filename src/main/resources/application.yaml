@@ -1,0 +1,8 @@
+server:
+  port: 9002
+
+zuul:
+  routes:
+      validation-service:
+        url: http://localhost:8080
+
